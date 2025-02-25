@@ -1,0 +1,286 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .header {
+    height: 110px;
+    width: 100%;
+    background-color: brown;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .logo {
+    color: white;
+    font-size: 15px;
+  }
+
+  
+
+  .menu ul li{
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-block;
+    margin-left: 20px;
+    color: white;
+  }
+
+  .button button {
+    background-color: rgb(255, 255, 255);
+    color: brown;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+  }
+
+  /**Slider */
+  .slider {
+    height: 500px;
+    width: 100%;
+    background-image: url(https://platform.polygon.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/22672743/to_your_eternity_14420_1.jpg?quality=90&strip=all&crop=7.8125,0,84.375,100);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .black {
+    height: 500px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .black button {
+    height: 40px;
+    width: 130px;
+    padding: 5px;
+    background-color: rgb(155, 15, 27);
+    border: 0;
+    color: white;
+  }
+
+  .black  h1{
+    color: white;
+    font-size: 45px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .black p {
+    color: white;
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-bottom: 12px;
+  }
+
+  /**title comman */
+
+  .title-comman {
+    text-align: center;
+  }
+
+  .information
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .info {
+    border: 2px solid rgb(213, 213, 213);
+    height: 297px;
+    width: 600px;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+  }
+
+  .info img {
+    float: left;
+    height: 250px;
+    width: 200px;
+    margin-right: 20px;
+    border-radius: 15px;
+  }
+  
+  .cartoon{
+    float: left;
+    height: 250px;
+    width: 200px;
+    margin-right: 20px;
+    background-image: url(https://m.media-amazon.com/images/M/MV5BMjdmNzU2NjQtZjUzOC00ZTY1LWE3YzItOTJkMDQxZTkzMDU4XkEyXkFqcGc@._V1_.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+  }
+
+
+  .info h3 {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+  
+
+  /**Divider */
+
+  .episode {
+    height: 400px;
+    width: 300px;
+    background-color: blanchedalmond;
+    border-radius: 15px;
+  }
+
+  .video {
+
+    height: 400px;
+    width: 350px;
+    background-color: blanchedalmond;
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .fushi iframe{
+    height: 200px;
+    width: 300px;
+    background-color: rgb(180, 119, 44);
+    border-radius: 15px;
+  }
+
+  .video h3 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+  }
+
+  #videos {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 30px;
+  }
+
+
+  .maino {
+    width: 100%;
+    height: 600px;
+    background-image: url(https://i.pinimg.com/originals/6d/18/84/6d1884bbd6a1d6bc6bf2c48a45438c0b.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+
+  .black2 {
+    width: 100%;
+    height: 600px;
+    background-color: rgba(0, 0, 0, 0.515);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column
+  }
+
+.imagio {
+  text-align: center;
+}
+
+
+  .black2 a img {
+    
+    animation: animate 2s infinite;
+  }
+
+
+  @keyframes animate {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+    
+  }
+
+  .container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+
+
+  .orb {
+    height: 400px;
+    width: 600px;
+    border-radius: 15px;
+    background-image: url(pioran/to_your_eternity__fumetsu_no_anata_e__fushi_render_by_doklevotere_deke6z9-pre.png);
+    background-size: cover;
+    transition: transform 0.5s ease;
+
+  }
+
+  .pioran {
+    height: 400px;
+    width: 600px;
+    border-radius: 15px;
+    background-image: url(pioran/arc.png);
+    background-size: cover;
+    transition: filter 0.4s ease-in-out;
+  }
+
+
+    
+.pioran:hover {
+  filter: blur(5px);
+}
+
+.orb:hover {
+    transform: rotate(10deg) scale(1.1);
+}
+
+.footer1 {
+  width: 100%;
+  height: 400px;
+  background-color: brown;
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.texto {
+  color: white;
+  font-size: 15px;
+}
+
+.menu1 ul li {
+  text-decoration: none;
+  color: white;
+  list-style-type: none;
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
